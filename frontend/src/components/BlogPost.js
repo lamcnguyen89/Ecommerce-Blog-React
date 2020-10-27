@@ -41,7 +41,7 @@ const BlogPost = (props) => {
                 </div>
 
                 <div className="postImageContainer">
-                    <img src={require('../../blogPostImages/' + post.blogImage)} alt="Post Image" />
+                    <img src={require('../blogPostImages/' + post.blogImage)} alt="Post Image" />
                     
                 </div>
 

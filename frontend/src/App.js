@@ -52,7 +52,8 @@ function App() {
               </button>
               <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                  <Link className="nav-item nav-link navigationtext" to="/">Products <span className="sr-only">(current)</span></Link>
+                  <Link className="nav-item nav-link navigationtext" to="/">Products </Link>
+                  <Link className="nav-item nav-link navigationtext" to="/bloghome">Blog </Link>
                   <Link className="nav-item nav-link navigationtext" to="/contact">Contact Us</Link>
 
                   {userInfo ? 
